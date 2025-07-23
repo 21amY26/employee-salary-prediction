@@ -71,3 +71,23 @@ if submitted:
     input_df = pd.DataFrame([input_dict])
     prediction = model.predict(input_df)[0]
     st.success(f"Predicted Salary: ${prediction:,.2f}")
+
+st.markdown(
+    """
+    <style>
+    .custom-footer {
+        position: fixed;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+        font-size: 0.9rem;
+        color: #ffeef2; /*baby pink*/
+    }
+    </style>
+
+    <div class="custom-footer">
+        © 2025 An Amisha S. project | All rights reserved.
+    </div color: #ffeef3>
+    """,
+    unsafe_allow_html=True
+)
