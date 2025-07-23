@@ -29,6 +29,7 @@ It features a user-friendly **Streamlit web interface** where users can input th
   - RMSE: 11761.68
   - R² Score: 0.7760
 - Preprocessing:
+  - StandardScaler for numerical data
   - One-hot encoding for categorical data
   - Label encoding for education levels
   - Manual encoding for skills and work mode
