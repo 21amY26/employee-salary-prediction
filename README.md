@@ -4,6 +4,7 @@ This project uses machine learning to predict an employee's annual salary based 
 
 It features a user-friendly **Streamlit web interface** where users can input their details through dropdowns and get a real-time salary estimate.
 
+https://employee-salary-prediction-2125.streamlit.app/
 ---
 
 ## 🚀 Features
